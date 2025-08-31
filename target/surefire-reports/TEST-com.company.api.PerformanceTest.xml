@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.company.api.PerformanceTest" time="6.713" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.company.api.PerformanceTest" time="6.548" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/surefire/surefirebooter-20250830212818580_3.jar /Users/sempreit/Documents/projects/api-restassured-framework/target/surefire 2025-08-30T21-28-18_385-jvmRun1 surefire-20250830212818580_1tmp surefire_0-20250830212818580_2tmp"/>
+    <property name="sun.java.command" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/surefire/surefirebooter-20250830215107944_3.jar /Users/sempreit/Documents/projects/api-restassured-framework/target/surefire 2025-08-30T21-51-07_710-jvmRun1 surefire-20250830215107944_1tmp surefire_0-20250830215107944_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/test-classes:/Users/sempreit/Documents/projects/api-restassured-framework/target/classes:/Users/sempreit/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/sempreit/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/sempreit/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/sempreit/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/sempreit/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/sempreit/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sempreit/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/sempreit/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/sempreit/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/sempreit/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/sempreit/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/sempreit/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/sempreit/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/sempreit/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/sempreit/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/sempreit/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/Users/sempreit/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/sempreit/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/sempreit/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/sempreit/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sempreit/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/Users/sempreit/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/sempreit/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-junit5/2.21.0/allure-junit5-2.21.0.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-junit-platform/2.21.0/allure-junit-platform-2.21.0.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/sempreit/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar:/Users/sempreit/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/sempreit/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/sempreit/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/sempreit/.m2/repository/org/slf4j/slf4j-simple/2.0.6/slf4j-simple-2.0.6.jar:/Users/sempreit/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/surefire/surefirebooter-20250830212818580_3.jar:/Users/sempreit/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar"/>
+    <property name="surefire.real.class.path" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/surefire/surefirebooter-20250830215107944_3.jar:/Users/sempreit/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -63,7 +63,7 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testRateLimiting" classname="com.company.api.PerformanceTest" time="6.709">
+  <testcase name="testRateLimiting" classname="com.company.api.PerformanceTest" time="6.544">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://serverest.dev/usuarios
 Proxy:			<none>
@@ -71,7 +71,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -86,8 +86,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: d10a32014c632a9a39acf601b015bd2c
-date: Sun, 31 Aug 2025 00:28:27 GMT
+x-cloud-trace-context: 323f6f0e19b55bd9a184648e83c094c6
+date: Sun, 31 Aug 2025 00:51:16 GMT
 server: Google Frontend
 Content-Length: 1384
 
@@ -145,7 +145,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -160,8 +160,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: af7494a244f703f5a80b4e10f36ff5fd
-date: Sun, 31 Aug 2025 00:28:28 GMT
+x-cloud-trace-context: f78e3da5979ab8350881b31034a78991
+date: Sun, 31 Aug 2025 00:51:17 GMT
 server: Google Frontend
 Content-Length: 1384
 
@@ -219,7 +219,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -234,8 +234,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 3fe3ba4717dfbf20e51b995e21763d9a
-date: Sun, 31 Aug 2025 00:28:29 GMT
+x-cloud-trace-context: ab8e0a6917ea2b32f05ba0f02fc7a3d8
+date: Sun, 31 Aug 2025 00:51:17 GMT
 server: Google Frontend
 Content-Length: 1384
 
@@ -293,7 +293,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -308,8 +308,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 81aa1880673c3a339a096a8a85b17a29
-date: Sun, 31 Aug 2025 00:28:29 GMT
+x-cloud-trace-context: 47f4f8869862f19965bdf87164213c4b
+date: Sun, 31 Aug 2025 00:51:18 GMT
 server: Google Frontend
 Content-Length: 1384
 
@@ -367,7 +367,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -382,8 +382,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 5fda4f9b65ee2cb50796871fdfeebc46
-date: Sun, 31 Aug 2025 00:28:30 GMT
+x-cloud-trace-context: 8a8f81fbc606722bf5e5df0b8ea09d4c
+date: Sun, 31 Aug 2025 00:51:19 GMT
 server: Google Frontend
 Content-Length: 1384
 
@@ -441,7 +441,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -456,8 +456,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 7cc89b8ea06379fa0345a4927eeee37e;o=1
-date: Sun, 31 Aug 2025 00:28:31 GMT
+x-cloud-trace-context: 497c85afbe16792302dc8b912b205e63
+date: Sun, 31 Aug 2025 00:51:19 GMT
 server: Google Frontend
 Content-Length: 1384
 
@@ -515,7 +515,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -530,8 +530,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 770e7b62b0ac75fa142caeea1a9b8948
-date: Sun, 31 Aug 2025 00:28:31 GMT
+x-cloud-trace-context: a3515857c9af0e8e5befa86cfc823a6e;o=1
+date: Sun, 31 Aug 2025 00:51:20 GMT
 server: Google Frontend
 Content-Length: 1384
 
@@ -589,7 +589,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -604,8 +604,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: d65f24eb9640f4ca65248e84b3e50682
-date: Sun, 31 Aug 2025 00:28:32 GMT
+x-cloud-trace-context: 20f5d190cf094f6e376e48f8a7e3fb20
+date: Sun, 31 Aug 2025 00:51:21 GMT
 server: Google Frontend
 Content-Length: 1384
 
@@ -663,7 +663,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -678,8 +678,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 89030533361c57566bc11a4c12bbcad8
-date: Sun, 31 Aug 2025 00:28:33 GMT
+x-cloud-trace-context: 63a984cdc643f9668355274d0f902765
+date: Sun, 31 Aug 2025 00:51:21 GMT
 server: Google Frontend
 Content-Length: 1384
 
@@ -737,7 +737,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAwMTAwLCJleHAiOjE3NTY2MDA3MDB9.oSZruebNXq6fJb9cxeZc5rUaT-Q-pzEFV1H7EGs0-RM
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -752,8 +752,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 74d508c1f35871e72abcc8e32fd7e78c
-date: Sun, 31 Aug 2025 00:28:33 GMT
+x-cloud-trace-context: b9cf5714f91960a40ffc8df37c092cc0
+date: Sun, 31 Aug 2025 00:51:22 GMT
 server: Google Frontend
 Content-Length: 1384
 
