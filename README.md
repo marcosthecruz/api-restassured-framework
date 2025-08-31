@@ -1,4 +1,5 @@
-🚀 API Automation Framework
+# 🚀 API Automation Framework
+
 Framework completo de automação de testes para API RESTful de gerenciamento de usuários, com integração CI/CD via GitHub Actions e relatórios Allure.
 
 https://github.com/seu-usuario/api-automation-framework/actions/workflows/ci.yml/badge.svg
@@ -25,9 +26,11 @@ JSON & Jackson - Manipulação de dados
 ## 📦 Estrutura do Projeto
 
 api-automation-framework/
+│
 ├── .github/
 │ └── workflows/
 │ └── ci.yml # Pipeline CI/CD
+│
 ├── src/
 │ ├── main/
 │ │ └── java/
@@ -39,6 +42,7 @@ api-automation-framework/
 │ │ │ └── UserService.java # Serviços da API
 │ │ └── utils/
 │ │ └── TestConfig.java # Configurações e autenticação
+│ │
 │ └── test/
 │ ├── java/
 │ │ └── com/
@@ -46,11 +50,15 @@ api-automation-framework/
 │ │ └── api/
 │ │ ├── UserAPITest.java # Testes principais da API
 │ │ └── PerformanceTest.java # Testes de performance
+│ │
 │ └── resources/
 │ └── config.properties # Configurações de ambiente
+│
 ├── .vscode/
 │ └── settings.json # Configurações do VS Code
+│
 ├── pom.xml # Dependências Maven
+│
 └── README.md # Documentação
 
 ## ⚙️ Pré-requisitos
@@ -62,7 +70,7 @@ VS Code (recomendado) com extensões:
 Prettier - Code formatter
 Allure Report Preview
 
-🚀 Como Executar os Testes
+# 🚀 Como Executar os Testes
 
 1. Clone o repositório
    git clone https://github.com/seu-usuario/api-automation-framework.git
@@ -70,33 +78,35 @@ Allure Report Preview
 
 2. Execute os testes com relatório
 
-# Executa testes e gera relatório Allure
+## Executa testes e gera relatório Allure
 
 mvn clean test allure:report
 
-# Abre o relatório no navegador
+## Abre o relatório no navegador
 
 mvn allure:serve
 
-# Executar apenas testes específicos
+## Executar apenas testes específicos
 
 mvn test -Dtest=UserAPITest
 
-# Executar com logging detalhado
+## Executar com logging detalhado
 
 mvn test -Dtest=UserAPITest -X
 
-# Gerar relatório apenas
+## Gerar relatório apenas
 
 mvn allure:report
-📊 Relatórios Allure
+
+# 📊 Relatórios Allure
+
 Visualização Local
 
-# Gera e abre o relatório
+## Gera e abre o relatório
 
 mvn allure:serve
 
-# Ou abra manualmente após gerar:
+## Ou abra manualmente após gerar:
 
 open target/site/allure-maven-plugin/index.html
 Estrutura do Relatório
@@ -107,16 +117,17 @@ Suites: Organização por classes de teste
 Graphs: Métricas e estatísticas
 Timeline: Linha do tempo de execução
 
-🔧 Configuração
+# 🔧 Configuração
+
 Arquivo config.properties
 
-# API Configuration
+## API Configuration
 
 base.url=https://serverest.dev
 auth.endpoint=/login
 users.endpoint=/usuarios
 
-# Test Data
+## Test Data
 
 admin.email=fulano@qa.com
 admin.password=teste
@@ -126,7 +137,8 @@ Configure estas secrets no GitHub:
 ADMIN_EMAIL: Email do usuário administrador
 ADMIN_PASSWORD: Senha do usuário administrador
 
-🏗️ Pipeline CI/CD
+# 🏗️ Pipeline CI/CD
+
 GitHub Actions Workflow
 
 O projeto inclui pipeline automatizada que:
@@ -139,7 +151,8 @@ Artefatos Gerados
 test-results: Relatórios XML do Maven Surefire
 allure-report: Relatório HTML completo do Allure
 
-🧪 Cobertura de Testes
+# 🧪 Cobertura de Testes
+
 Endpoints Testados
 GET /usuarios - Listar todos os usuários
 POST /usuarios - Criar novo usuário
@@ -159,32 +172,32 @@ public class UserAPITest {
 // - Validações de campos obrigatórios
 }
 
-🐛 Solução de Problemas Comuns
+# 🐛 Solução de Problemas Comuns
+
 Erro de Autenticação
-
-# Verifique as credenciais no config.properties
-
-# Ou configure as secrets no GitHub Actions
-
+Verifique as credenciais no config.properties
+Ou configure as secrets no GitHub Actions
 Relatório Allure não gerado
 
-# Use allure:report em vez de allure:serve para CI
+## Use allure:report em vez de allure:serve para CI
 
 mvn allure:report
 
-Erro no GitHub Actions
+## Erro no GitHub Actions
 
-# Certifique-se de usar actions/upload-artifact@v4
+Certifique-se de usar actions/upload-artifact@v4
 
 uses: actions/upload-artifact@v4
 
-📝 Padrões de Commit
+# 📝 Padrões de Commit
+
 feat: Nova funcionalidade de teste
 fix: Correção de bug nos testes
 docs: Atualização de documentação
 chore: Configurações e dependências
 
-🔄 Fluxo de Desenvolvimento
+# 🔄 Fluxo de Desenvolvimento
+
 Desenvolvimento Local
 mvn test allure:serve
 Commit e Push
@@ -192,7 +205,8 @@ git add .
 git commit -m "feat: add new test cases"
 git push origin main
 
-Verificação CI
+## Verificação CI
+
 Acesse GitHub → Actions
 Verifique status da pipeline
 Download dos artefatos
@@ -201,24 +215,28 @@ Analise relatórios Allure
 Verifique cobertura de testes
 Ajuste testes se necessário
 
-📈 Próximas Melhorias
+# 📈 Próximas Melhorias
+
 Testes de carga e performance
 Integração com Slack notifications
 Dashboard de métricas de qualidade
 Testes em múltiplos ambientes
 Paralelização de testes
 
-🤝 Contribuindo
+# 🤝 Contribuindo
+
 Fork o projeto
 Crie uma branch para sua feature
 Commit suas mudanças
 Push para a branch
 Abra um Pull Request
 
-📄 Licença
+# 📄 Licença
+
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
 
-🆘 Suporte
+# 🆘 Suporte
+
 Se encontrar problemas:
 Verifique a aba Issues do GitHub
 Consulte os logs do GitHub Actions
