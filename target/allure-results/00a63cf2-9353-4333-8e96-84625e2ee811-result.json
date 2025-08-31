@@ -1,0 +1,38 @@
+{
+  "uuid": "00a63cf2-9353-4333-8e96-84625e2ee811",
+  "historyId": "c9ca1bddde18d9df8c27fb09094663f1",
+  "testCaseId": "[engine:junit-jupiter]/[class:com.company.api.UserAPITest]/[method:testDeleteUserSuccess()]",
+  "testCaseName": "Delete User - Success",
+  "fullName": "com.company.api.UserAPITest.testDeleteUserSuccess",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:com.company.api.UserAPITest]/[method:testDeleteUserSuccess()]"
+    },
+    { "name": "feature", "value": "CRUD Operations for Users" },
+    { "name": "epic", "value": "User Management API" },
+    { "name": "story", "value": "Delete User" },
+    { "name": "host", "value": "MacBook-Pro-de-Sempre-2.local" },
+    {
+      "name": "thread",
+      "value": "56524@MacBook-Pro-de-Sempre-2.local.main(1)"
+    },
+    { "name": "framework", "value": "junit-platform" },
+    { "name": "language", "value": "java" },
+    { "name": "package", "value": "com.company.api.UserAPITest" },
+    { "name": "testClass", "value": "com.company.api.UserAPITest" },
+    { "name": "testMethod", "value": "testDeleteUserSuccess" },
+    { "name": "suite", "value": "com.company.api.UserAPITest" },
+    { "name": "severity", "value": "critical" }
+  ],
+  "links": [],
+  "name": "Delete User - Success",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Test deleting a user",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1756600104353,
+  "stop": 1756600105409
+}

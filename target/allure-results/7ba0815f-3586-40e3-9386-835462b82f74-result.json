@@ -1,0 +1,38 @@
+{
+  "uuid": "7ba0815f-3586-40e3-9386-835462b82f74",
+  "historyId": "fffb8962154ea3e95f2307d7c56a349d",
+  "testCaseId": "[engine:junit-jupiter]/[class:com.company.api.UserAPITest]/[method:testCreateUserMissingFields()]",
+  "testCaseName": "Create User - Missing Required Fields",
+  "fullName": "com.company.api.UserAPITest.testCreateUserMissingFields",
+  "labels": [
+    {
+      "name": "junit.platform.uniqueid",
+      "value": "[engine:junit-jupiter]/[class:com.company.api.UserAPITest]/[method:testCreateUserMissingFields()]"
+    },
+    { "name": "feature", "value": "CRUD Operations for Users" },
+    { "name": "epic", "value": "User Management API" },
+    { "name": "story", "value": "Create User" },
+    { "name": "host", "value": "MacBook-Pro-de-Sempre-2.local" },
+    {
+      "name": "thread",
+      "value": "39178@MacBook-Pro-de-Sempre-2.local.main(1)"
+    },
+    { "name": "framework", "value": "junit-platform" },
+    { "name": "language", "value": "java" },
+    { "name": "package", "value": "com.company.api.UserAPITest" },
+    { "name": "testClass", "value": "com.company.api.UserAPITest" },
+    { "name": "testMethod", "value": "testCreateUserMissingFields" },
+    { "name": "suite", "value": "com.company.api.UserAPITest" },
+    { "name": "severity", "value": "normal" }
+  ],
+  "links": [],
+  "name": "Create User - Missing Required Fields",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Test creating user with missing required fields",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1756598462046,
+  "stop": 1756598462566
+}

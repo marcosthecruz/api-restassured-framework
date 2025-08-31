@@ -1,0 +1,28 @@
+{
+  "uuid": "68725657-5697-44d3-9959-e716fcd1b0d7",
+  "name": "UserAPITest",
+  "children": [
+    "c7728352-ab39-4ed5-9379-4c8ce60149b1",
+    "36f023e5-902e-440a-a07d-7a1a53e7c8dd",
+    "dcf36f7c-79ce-4412-bd09-d249ab0c707a",
+    "0e463917-2bef-4032-ac3c-f31dd56a2b31",
+    "09995662-af66-47ff-ac43-571f5c18468c",
+    "7ba0815f-3586-40e3-9386-835462b82f74",
+    "aa90a758-63c9-4adc-a3ba-6dc7914500b1"
+  ],
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1756598455769,
+      "stop": 1756598455769
+    }
+  ],
+  "afters": [],
+  "start": 1756598455723,
+  "stop": 1756598463099
+}
