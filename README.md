@@ -22,29 +22,39 @@ Allure Report - Relatórios de testes interativos
 GitHub Actions - CI/CD Pipeline automatizada
 JSON & Jackson - Manipulação de dados
 
-📦 Estrutura do Projeto
+## 📦 Estrutura do Projeto
+
 api-automation-framework/
-├── .github/workflows/
+├── .github/
+│ └── workflows/
 │ └── ci.yml # Pipeline CI/CD
 ├── src/
-│ ├── main/java/com/company/
+│ ├── main/
+│ │ └── java/
+│ │ └── com/
+│ │ └── company/
 │ │ ├── models/
 │ │ │ └── User.java # Modelo de dados do usuário
 │ │ ├── services/
 │ │ │ └── UserService.java # Serviços da API
 │ │ └── utils/
 │ │ └── TestConfig.java # Configurações e autenticação
-│ └── test/java/com/company/api/
-│ ├── UserAPITest.java # Testes principais da API
-│ └── PerformanceTest.java # Testes de performance
+│ └── test/
+│ ├── java/
+│ │ └── com/
+│ │ └── company/
+│ │ └── api/
+│ │ ├── UserAPITest.java # Testes principais da API
+│ │ └── PerformanceTest.java # Testes de performance
+│ └── resources/
+│ └── config.properties # Configurações de ambiente
 ├── .vscode/
 │ └── settings.json # Configurações do VS Code
-├── src/test/resources/
-│ └── config.properties # Configurações de ambiente
 ├── pom.xml # Dependências Maven
 └── README.md # Documentação
 
-⚙️ Pré-requisitos
+## ⚙️ Pré-requisitos
+
 Java JDK 11 ou superior
 Maven 3.6 ou superior
 Git
