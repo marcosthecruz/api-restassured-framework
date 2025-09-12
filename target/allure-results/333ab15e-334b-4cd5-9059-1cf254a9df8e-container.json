@@ -1,9 +1,0 @@
-{
-  "uuid": "333ab15e-334b-4cd5-9059-1cf254a9df8e",
-  "name": "Get User by ID - Success",
-  "children": ["36f023e5-902e-440a-a07d-7a1a53e7c8dd"],
-  "befores": [],
-  "afters": [],
-  "start": 1756598458482,
-  "stop": 1756598459055
-}

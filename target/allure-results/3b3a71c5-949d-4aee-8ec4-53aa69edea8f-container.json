@@ -1,9 +1,0 @@
-{
-  "uuid": "3b3a71c5-949d-4aee-8ec4-53aa69edea8f",
-  "name": "Create User - Success",
-  "children": ["187c65aa-178f-4a49-994d-fc0955ca768f"],
-  "befores": [],
-  "afters": [],
-  "start": 1756598373148,
-  "stop": 1756598375825
-}

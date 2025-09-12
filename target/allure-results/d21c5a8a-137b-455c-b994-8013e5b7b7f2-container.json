@@ -1,9 +1,0 @@
-{
-  "uuid": "d21c5a8a-137b-455c-b994-8013e5b7b7f2",
-  "name": "PerformanceTest",
-  "children": ["894b442e-a83d-4d26-acd4-6183f0920ec5"],
-  "befores": [],
-  "afters": [],
-  "start": 1756598380377,
-  "stop": 1756598388664
-}

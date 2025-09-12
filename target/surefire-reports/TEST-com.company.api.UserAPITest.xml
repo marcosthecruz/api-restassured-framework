@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.company.api.UserAPITest" time="7.092" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.company.api.UserAPITest" time="8.006" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/surefire/surefirebooter-20250830215107944_3.jar /Users/sempreit/Documents/projects/api-restassured-framework/target/surefire 2025-08-30T21-51-07_710-jvmRun1 surefire-20250830215107944_1tmp surefire_0-20250830215107944_2tmp"/>
+    <property name="sun.java.command" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/surefire/surefirebooter-20250912160729894_3.jar /Users/sempreit/Documents/projects/api-restassured-framework/target/surefire 2025-09-12T16-07-29_658-jvmRun1 surefire-20250912160729894_1tmp surefire_0-20250912160729894_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/test-classes:/Users/sempreit/Documents/projects/api-restassured-framework/target/classes:/Users/sempreit/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/sempreit/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/sempreit/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/sempreit/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/sempreit/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/sempreit/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sempreit/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/sempreit/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/sempreit/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/sempreit/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/sempreit/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/sempreit/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/sempreit/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/sempreit/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/sempreit/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/sempreit/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.2/junit-jupiter-5.9.2.jar:/Users/sempreit/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/Users/sempreit/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/sempreit/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/Users/sempreit/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sempreit/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.2/junit-jupiter-params-5.9.2.jar:/Users/sempreit/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/Users/sempreit/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-junit5/2.21.0/allure-junit5-2.21.0.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-junit-platform/2.21.0/allure-junit-platform-2.21.0.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-java-commons/2.21.0/allure-java-commons-2.21.0.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-model/2.21.0/allure-model-2.21.0.jar:/Users/sempreit/.m2/repository/io/qameta/allure/allure-test-filter/2.21.0/allure-test-filter-2.21.0.jar:/Users/sempreit/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar:/Users/sempreit/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar:/Users/sempreit/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar:/Users/sempreit/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar:/Users/sempreit/.m2/repository/org/slf4j/slf4j-simple/2.0.6/slf4j-simple-2.0.6.jar:/Users/sempreit/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/surefire/surefirebooter-20250830215107944_3.jar:/Users/sempreit/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar"/>
+    <property name="surefire.real.class.path" value="/Users/sempreit/Documents/projects/api-restassured-framework/target/surefire/surefirebooter-20250912160729894_3.jar:/Users/sempreit/.m2/repository/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk-1.8.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -63,7 +63,7 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="testCreateUserSuccess" classname="com.company.api.UserAPITest" time="2.561">
+  <testcase name="testCreateUserSuccess" classname="com.company.api.UserAPITest" time="2.758">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://serverest.dev/login
 Proxy:			<none>
@@ -89,14 +89,14 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: b8ffcf43275c81bbaaaa70379bf37baa;o=1
-date: Sun, 31 Aug 2025 00:51:10 GMT
+x-cloud-trace-context: 48385c552e7a8eee10a17b4389f25836
+date: Fri, 12 Sep 2025 19:07:32 GMT
 server: Google Frontend
 Content-Length: 265
 
 {
     "message": "Login realizado com sucesso",
-    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico"
+    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs"
 }
 Request method:	POST
 Request URI:	https://serverest.dev/usuarios
@@ -105,7 +105,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -126,17 +126,17 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 6e3b69617385c0f94bc0c8fe03f48458
-date: Sun, 31 Aug 2025 00:51:11 GMT
+x-cloud-trace-context: f9f01ae73052a8cf12312fdf2b2bf47c
+date: Fri, 12 Sep 2025 19:07:33 GMT
 server: Google Frontend
 Content-Length: 82
 
 {
     "message": "Cadastro realizado com sucesso",
-    "_id": "v1ahDsCVlO5lYVn7"
+    "_id": "8E85CQ0Ohhl7hiyt"
 }
 ]]></system-out>
-    <system-err><![CDATA[ago 30, 2025 9:51:09 PM org.aspectj.weaver.tools.Jdk14Trace error
+    <system-err><![CDATA[set 12, 2025 4:07:31 PM org.aspectj.weaver.tools.Jdk14Trace error
 GRAVE: org/codehaus/groovy/runtime/callsite/AbstractCallSite
 java.lang.RuntimeException: bad non-abstract method with no code: void org.codehaus.groovy.runtime.callsite.AbstractCallSite.<init>(org.codehaus.groovy.runtime.callsite.CallSiteArray, int, java.lang.String) on public class org.codehaus.groovy.runtime.callsite.AbstractCallSite
 	at org.aspectj.weaver.bcel.LazyMethodGen.<init>(LazyMethodGen.java:221)
@@ -256,19 +256,19 @@ java.lang.RuntimeException: bad non-abstract method with no code: void org.codeh
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-ago 30, 2025 9:51:09 PM org.aspectj.weaver.tools.Jdk14Trace info
-INFORMAÇÕES: Dumping to /Users/sempreit/Documents/projects/api-restassured-framework/./ajcore.20250830.215109.251.txt
+set 12, 2025 4:07:31 PM org.aspectj.weaver.tools.Jdk14Trace info
+INFORMAÇÕES: Dumping to /Users/sempreit/Documents/projects/api-restassured-framework/./ajcore.20250912.160731.139.txt
 ]]></system-err>
   </testcase>
-  <testcase name="testGetUserByIdSuccess" classname="com.company.api.UserAPITest" time="0.583">
+  <testcase name="testGetUserByIdSuccess" classname="com.company.api.UserAPITest" time="0.573">
     <system-out><![CDATA[Request method:	GET
-Request URI:	https://serverest.dev/usuarios/v1ahDsCVlO5lYVn7
+Request URI:	https://serverest.dev/usuarios/8E85CQ0Ohhl7hiyt
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -283,8 +283,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 3d24adf1504fc61d75b2dc2f3d4e40af
-date: Sun, 31 Aug 2025 00:51:12 GMT
+x-cloud-trace-context: c84b5833937e43a3878811aab4402ac0
+date: Fri, 12 Sep 2025 19:07:34 GMT
 server: Google Frontend
 Content-Length: 161
 
@@ -293,11 +293,11 @@ Content-Length: 161
     "email": "testuser.api@email.com",
     "password": "password123",
     "administrador": "true",
-    "_id": "v1ahDsCVlO5lYVn7"
+    "_id": "8E85CQ0Ohhl7hiyt"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAllUsersSuccess" classname="com.company.api.UserAPITest" time="0.553">
+  <testcase name="testGetAllUsersSuccess" classname="com.company.api.UserAPITest" time="0.77">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://serverest.dev/usuarios
 Proxy:			<none>
@@ -305,7 +305,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -320,14 +320,35 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 01e6d16c2d0ece35afd020b508794c5c
-date: Sun, 31 Aug 2025 00:51:12 GMT
+x-cloud-trace-context: 1efc2b3bbe5d54aaaf48cba1f22b6fb0
+date: Fri, 12 Sep 2025 19:07:34 GMT
 server: Google Frontend
-Content-Length: 1603
+Content-Length: 44698
 
 {
-    "quantidade": 7,
+    "quantidade": 202,
     "usuarios": [
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757683864789@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "0KuP2PJQPNADdKs3"
+        },
+        {
+            "nome": "Usuario Hotmail",
+            "email": "usuario@hotmail.com",
+            "password": "Senha123",
+            "administrador": "false",
+            "_id": "0VG3g3xoZLlRAUZK"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+368830f6-c923-4da3-91da-e3406e84e450@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "0rQGaXVldR38BMJR"
+        },
         {
             "nome": "Fulano da Silva",
             "email": "fulano@qa.com",
@@ -336,60 +357,1404 @@ Content-Length: 1603
             "_id": "0uxuPY0cbmQhpEz1"
         },
         {
-            "nome": "Víctor Macedo Jr.",
-            "email": "vitoria_souza@bol.com.br",
-            "password": "xDx0vxZ9sg7YGwP",
-            "administrador": "false",
-            "_id": "5Wkc6c5d6VHuc65A"
-        },
-        {
-            "nome": "Larissa Saraiva",
-            "email": "daniel62@bol.com.br",
-            "password": "2opWpKafMBT5wqi",
-            "administrador": "false",
-            "_id": "FGsWq9ucL3vY1xRl"
-        },
-        {
-            "nome": "Rebeca Santos",
-            "email": "meire10@gmail.com",
-            "password": "pt3Cuvsx2rfdkyG",
+            "nome": "Craig",
+            "email": "shawn93@example.com",
+            "password": "&g0+74Fj",
             "administrador": "true",
-            "_id": "QaqWhblcyQE8ROV7"
+            "_id": "17RAuj7zScs82Ict"
         },
         {
-            "nome": "Norberto Batista",
-            "email": "felicia_moreira@gmail.com",
-            "password": "vtOFfVQctPKgyGm",
+            "nome": "João Paulo",
+            "email": "joaopaulodevia@gmail.com",
+            "password": "123456",
             "administrador": "false",
-            "_id": "nATjxWrBLWwFsLgo"
+            "_id": "19wxsD7j8GVPelau"
         },
         {
-            "nome": "Norberto Batista",
-            "email": "kleber_barros40@live.com",
-            "password": "OByMy86IUQWM2Fu",
+            "nome": "testee",
+            "email": "fulano@qaa.com",
+            "password": "12345",
+            "administrador": "true",
+            "_id": "1KgTfJ6r3LtHVrU4"
+        },
+        {
+            "nome": "Teste Sem Carrinho",
+            "email": "semcarrinho_1757702760618@qa.com",
+            "password": "1234",
             "administrador": "false",
-            "_id": "oUiACV68QygEdTa3"
+            "_id": "2CBadojFa85PDdBJ"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii5696@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "2Sx5MfkNXxd0Aitx"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+b3e56352-8453-4049-a61e-2b2625d381ce@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "2zgNr2Nlklovfwr3"
+        },
+        {
+            "nome": "Betty Smith4331",
+            "email": "Corine_Shanahan@yahoo.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "3T1CMv3phzEnEcYn"
+        },
+        {
+            "nome": "QA 1757700010919",
+            "email": "qa_1757700010919@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "3TQnRoeoJgp9SGyl"
+        },
+        {
+            "nome": "Ms. Essie Hegmann4220",
+            "email": "Ima.Weber31@yahoo.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "3i4XqGaVbrORVhYE"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+712affe8-61f7-49b8-88d3-e953afa94657@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "3itZRw72TjqudJDT"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757685627984@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4JzzmatYqreX2hxj"
+        },
+        {
+            "nome": "Lela Hartmann7726",
+            "email": "Gracie_Sipes@gmail.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "4K3rgfRGL9lcIeg2"
+        },
+        {
+            "nome": "Ms. Terri Koch783",
+            "email": "Sonia47@yahoo.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "4sAeFUsWGcCeHPwo"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii4764@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "5O51Yofhxb2Zi24L"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+a67e8f74-281a-464a-944b-2c3d31e672a8@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "5sQn2mw5IQb5uLWe"
+        },
+        {
+            "nome": "Teste Sem Carrinho",
+            "email": "semcarrinho_1757702393951@qa.com",
+            "password": "1234",
+            "administrador": "false",
+            "_id": "5xA2MKSnYYIcd3TO"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii2463@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "663dHBXDsgY3wvcu"
+        },
+        {
+            "nome": "Teste Sem Carrinho",
+            "email": "semcarrinho_1757703077580@qa.com",
+            "password": "1234",
+            "administrador": "false",
+            "_id": "67tuc7th6nuq5Veo"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+cf41d7d3-c974-4d87-b839-74935927b504@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "6eoaPbBxQArv4HPN"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii9205@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "6pz3Irmmt3JqekZB"
+        },
+        {
+            "nome": "NuevoNombre",
+            "email": "pardito@gmail.com",
+            "password": "nuevoPass123",
+            "administrador": "false",
+            "_id": "6zTyLzisIzcr6ePR"
+        },
+        {
+            "nome": "Teste",
+            "email": "testando01@teste.com",
+            "password": "215487",
+            "administrador": "false",
+            "_id": "7CfzYFBpJZnCs2Ob"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii1958@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "7THxLtauMP6yaJzH"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757684421034@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7VKrWE7fAfaQH9r4"
+        },
+        {
+            "nome": "Teste API",
+            "email": "teste@api.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7ZOgTlXqUNzKiJuQ"
+        },
+        {
+            "nome": "Abc MDH",
+            "email": "ahsgagsags@qa.com.br",
+            "password": "teste456",
+            "administrador": "true",
+            "_id": "7my51npMFALYeRtl"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+b1209d90-8de3-4373-bd61-dc8aee0cd8b3@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "803UNszXlLVTlYg8"
         },
         {
             "nome": "Test User API",
             "email": "testuser.api@email.com",
             "password": "password123",
             "administrador": "true",
-            "_id": "v1ahDsCVlO5lYVn7"
+            "_id": "8E85CQ0Ohhl7hiyt"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "gabriel533@teste.com",
+            "password": "Mudar123@",
+            "administrador": "true",
+            "_id": "8xSE3tJQ4VtDaKgp"
+        },
+        {
+            "nome": "Yrvin put",
+            "email": "yrvin+162d108a-94a1-4dfe-9b7c-ed4469f20df6@gmail.com",
+            "password": "nuevo",
+            "administrador": "false",
+            "_id": "90gtABnHHnxrIg5B"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757683299973@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "955w1iADu5Rk51gN"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+b90b10b4-6c17-4694-8c7a-31e65748d333@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "9Q9Q9M7en4cV1sbj"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii8695@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "9SK3RcEAXurnelAw"
+        },
+        {
+            "nome": "Sandro Huamán Mendoza",
+            "email": "sandro+7ec12258-9f0e-4b9c-81fc-c7ce7edeb4c7@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "9vi3Bl1jlacBxG1G"
+        },
+        {
+            "nome": "jose mendoza",
+            "email": "jmendoza@qa.com.br",
+            "password": "tester",
+            "administrador": "true",
+            "_id": "A63hX2L4Vq5Vy1Ep"
+        },
+        {
+            "nome": "Sandro Huamán Mendoza",
+            "email": "sandro+1d1a9ab1-1838-47b2-8ad0-f92c5aa5a595@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "AW8iXOLUwDiutF6O"
+        },
+        {
+            "nome": "Roger Dibbert8237",
+            "email": "Hulda8@hotmail.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "Aej6miPrHRgz9kHF"
+        },
+        {
+            "nome": "QA 1757701745547",
+            "email": "qa_1757701745547@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "AfchkUdpVlJz0kVD"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "gabriel412@teste.com",
+            "password": "Mudar123@",
+            "administrador": "true",
+            "_id": "B2ZYnl0ufJDtlc8t"
+        },
+        {
+            "nome": "Fulano4 Will da Silva",
+            "email": "beltranowill4@qa.com.br",
+            "password": "testewill",
+            "administrador": "true",
+            "_id": "B7u9QkODtqm2O2uN"
+        },
+        {
+            "nome": "QA 1757700009972",
+            "email": "qa_1757700009972@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "BSsi35mvhAKWR1Xh"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii4048@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "BT5TqTOlDkNKvUlK"
+        },
+        {
+            "nome": "Billy Dicki6729",
+            "email": "Enoch69@yahoo.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "CaJaisJLRe07ouv7"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757685624912@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Cv5fey9nYHNaRI29"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757684017267@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "CyOxtr4IORWlXvOu"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii3390@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "DPRwW3Hwx3C98g56"
+        },
+        {
+            "nome": "Usuário Teste",
+            "email": "user1757683754467@teste.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "DR3yGjQJTgXXPooK"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii7893@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "DWAawoBn7ESZYetb"
+        },
+        {
+            "nome": "Yrvin put",
+            "email": "yrvin+d609b105-2e98-4cb2-a798-d658f2f8543a@gmail.com",
+            "password": "nuevo",
+            "administrador": "false",
+            "_id": "DvXmZYeJc6L65J9H"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757684004483@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ECCjlfq7djcZ5L94"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii383@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ESSZNWKxnZ4vrx8u"
+        },
+        {
+            "nome": "QA 1757701733347",
+            "email": "qa_1757701733347@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "ESgMzJwVSqrOmmHm"
+        },
+        {
+            "nome": "Yrvin put",
+            "email": "yrvin+f9e483cd-cb12-44d2-851c-36f80aed2401@gmail.com",
+            "password": "nuevo",
+            "administrador": "false",
+            "_id": "ElBN4LInXxxgemcF"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757687275647@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ExnXmKPb3XFonh7E"
+        },
+        {
+            "nome": "Fuzari quality assurance",
+            "email": "fuzari6784@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "FSHSRLHFbDlq7Rjn"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+16780429-d407-4c8f-99a9-a1e15b73df7b@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "FkrJrRttnS8WY13R"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano8389@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "G11RTuLiy7D8YoRQ"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii8291@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "GAwTCpycC2XPgqdx"
+        },
+        {
+            "nome": "QA 1757700055152",
+            "email": "qa_1757700055152@mail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "GYWoou1g7mi6fqKt"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757685620603@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "GoPFJltzlKzXMGVX"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "gabriel398@teste.com",
+            "password": "Mudar123@",
+            "administrador": "false",
+            "_id": "H6lOOxJZhxgMreFB"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "H9HlBcN9SWaRDb1G"
+        },
+        {
+            "nome": "Duane Corwin6185",
+            "email": "Noah_Schinner@hotmail.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "Hpcfo1HT3gVDoovW"
+        },
+        {
+            "nome": "Fuzari quality assurance",
+            "email": "fuzari3105@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "HseFMbZQ88qU5sGJ"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii1833@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Hsoji1nhpKq0EJZx"
+        },
+        {
+            "nome": "Sandro Huamán Mendoza",
+            "email": "sandro+d4e32eea-635f-4eea-8e82-be5795eaae68@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "HxYyeuxDNjWngDss"
+        },
+        {
+            "nome": "Usuario Comum",
+            "email": "usuario.teste@email.com",
+            "password": "teste123",
+            "administrador": "false",
+            "_id": "I6Wj7A2AR8IBCJ9z"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii6538@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ICd9KZDvkBRSYjLB"
+        },
+        {
+            "nome": "QA 1757701732335",
+            "email": "qa_1757701732335@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "ISnDZ0K33hdBARiD"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano3943@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "IyOwmLgFrxz1WolB"
+        },
+        {
+            "nome": "ícaro cau",
+            "email": "icaro1757684075542@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "J0wzlcCxPk1tzxMk"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii4800@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "JTaxJLkj9mVfCff5"
+        },
+        {
+            "nome": "Sandro Huaman ",
+            "email": "sandroingsistemas30@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "JUiOq9fDpPjeEjJ6"
+        },
+        {
+            "nome": "QA 1757701733798",
+            "email": "qa_1757701733798@mail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "JjB5Oui5Cjg35Cq5"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757685602978@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Jon7QyFY6911oXFI"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+bcf03d8c-f7eb-4db5-b17e-d05efdc6fdb4@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "KGyhO6xzIpCVuntm"
+        },
+        {
+            "nome": "QA 1757700011397",
+            "email": "qa_1757700011397@mail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "KfrqgiSB2O4GiMhU"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii396@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "L086GMkCHvT1THn6"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757684466106@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "LYklndHHaMzMho5Z"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii8790@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "LkBkYSrNPPJEh6am"
+        },
+        {
+            "nome": "Yrvin put",
+            "email": "yrvin+3e7295cf-b7a0-4f50-831d-ad107fcb88a0@gmail.com",
+            "password": "nuevo",
+            "administrador": "false",
+            "_id": "MUEGDHQ1vKF7pCqC"
+        },
+        {
+            "nome": "Sandro Huamán Mendoza",
+            "email": "sandro+a5933fde-b92d-4d70-8fcf-289fde8e60b7@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "NxVFS8Yuc8R0dIMc"
+        },
+        {
+            "nome": "Pamela Simonis-Schuppe5830",
+            "email": "Perry.Tillman90@gmail.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "ORqguXYE6AHqiTEk"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii2831@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ORzwrhVKiIVGE8qE"
+        },
+        {
+            "nome": "Sandro Huamán Mendoza",
+            "email": "sandro+f87317ae-a725-4a36-b0e0-a7d64ac37116@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "OhJH5y83yQ2v9B7E"
+        },
+        {
+            "nome": "Lisa",
+            "email": "toddknight@example.org",
+            "password": "Cu@1SUgh",
+            "administrador": "true",
+            "_id": "P4O3p1eWTxRl56BW"
+        },
+        {
+            "nome": "QA 1757700032522",
+            "email": "qa_1757700032522@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "P6pdXWoEL6fSVSPS"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii2357@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "PQZoQbzO0jaYzlwy"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757683268930@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PRolIy1GH8RdTZgR"
+        },
+        {
+            "nome": "Teste",
+            "email": "testando02@teste.com",
+            "password": "215487",
+            "administrador": "false",
+            "_id": "PfSqy40dPZDmE1bh"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii5763@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Q23DkIFC3PD9N7fE"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii1102@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "QRBm5QZNEl5Wt50f"
+        },
+        {
+            "nome": "Yrvin Pachas ",
+            "email": "yrvin21pachas2004@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "QqzrqquktUe4giB5"
+        },
+        {
+            "nome": "ícaro cau",
+            "email": "icaro1757684173383@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "R0L0gHHJXjKhWKms"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+df333a7b-d464-4a83-b0e5-749659934db7@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "RDUgyCkY5eUz2Bow"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+30f2c7e4-3875-4072-8b0b-7afb4a9c9aaa@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "RLIdd52hTwKr6jei"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757684005753@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "RZC916La3trUtbe5"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757683913707@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "RqhGAaU4Cxmddwju"
+        },
+        {
+            "nome": "Sandro Huamán Mendoza",
+            "email": "sandro+1276cfef-358a-4410-8993-cf602e6b41d3@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "RsOq6kSecDinLcPu"
+        },
+        {
+            "nome": "Isabela Regina",
+            "email": "isabela@teste.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "RwBt9qqdKw8soFb1"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757683799234@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "SFZIY0XTvoDCv69W"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii7516@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "T0j7E2buGLh6rBam"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "gabriel244@teste.com",
+            "password": "Mudar123@",
+            "administrador": "true",
+            "_id": "TmbzuNZ025eLEgBI"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii7109@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "U8UGPcT6H6a8d9no"
+        },
+        {
+            "nome": "Isabela Regina",
+            "email": "isabela.teste.1757691234@teste.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UK3JlMLUuEo8EY0C"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "user@teste.com",
+            "password": "1234",
+            "administrador": "false",
+            "_id": "UXGJBhU8npMVAgSl"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii2224@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "UfGgR5CWvmKvVejO"
+        },
+        {
+            "nome": "Usuario Duplicado",
+            "email": "usuario_duplicado@teste.com",
+            "password": "Senha123",
+            "administrador": "false",
+            "_id": "UlJ9JlS66pSR3buf"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757684033739@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UtmT7oZVhpiE3OLD"
+        },
+        {
+            "nome": "L",
+            "email": "icaro1757684460006@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "WaSvjREUnEWwcVlg"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+aa6b43a5-f21b-4ffd-b572-8bd6af16772b@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "Wg5LTRLskHoDxOCZ"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii177@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Wn1cJY0UDQ5umw8H"
+        },
+        {
+            "nome": "UI QA 1757700015126",
+            "email": "ui_1757700015126@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "XMSY4wzfsfawUF6z"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "gabrielvolponi@teste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "XOZvgEOV2yByo4bp"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+7dc7ab69-35ba-440d-9b5e-2b37ef4b665f@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "XwuhItaAyPRtirBj"
+        },
+        {
+            "nome": "gabriel volponi",
+            "email": "admin@teste.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "Yb7H2eycjiSBl9wn"
+        },
+        {
+            "nome": "Angie Schneider2631",
+            "email": "Enrique93@gmail.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "YjlufMkwW2iUpXyd"
+        },
+        {
+            "nome": "QA 1757701741680",
+            "email": "qa_1757701741680@mail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Z7pu7gMsAKCumEw3"
+        },
+        {
+            "nome": "Sandro Huamán Mendoza",
+            "email": "sandro+281f0530-6f42-477c-be41-06cd62a32f4a@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "Z8ZGWZxt5rtGaTe0"
+        },
+        {
+            "nome": "Teste DaniN8N",
+            "email": "teste.n8n@gmc.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "ZGNzJjPkRQpTij39"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "gabriel867@teste.com",
+            "password": "Mudar123@",
+            "administrador": "true",
+            "_id": "ZYvEBMBSdxNcfYeV"
+        },
+        {
+            "nome": "QA 1757700053791",
+            "email": "qa_1757700053791@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "aIYRKJiIX3ZX5QsY"
+        },
+        {
+            "nome": "QA 1757700054630",
+            "email": "qa_1757700054630@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "aakk4ROguSwoRUXC"
+        },
+        {
+            "nome": "Teste Novo para Automação",
+            "email": "teste12345@qa.com",
+            "password": "teste12345",
+            "administrador": "true",
+            "_id": "b8EsoP5Y39nk0tBA"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+2b0493ba-56f1-49a5-804b-375ff093e68f@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "bE9o0AozQxqtCuGx"
+        },
+        {
+            "nome": "Fuzari quality assurance",
+            "email": "fuzari3943@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "bOuIL4GskpZqk19d"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii1227@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "bWJGAl2gTcAkghdO"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757683911747@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "beEwlRnNCy502WUP"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano3105@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "biPtziGxrUNoVO7e"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+72cf23f5-80d4-4551-9c7e-923c3207e572@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "bq7GxEFqL9Llf041"
+        },
+        {
+            "nome": "Andressa Mota",
+            "email": "tzkgzrih@robot.com",
+            "password": "Senha123",
+            "administrador": "true",
+            "_id": "cGvFl1ZxthPhgWRj"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757685615931@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "cumrK3Y1CHVWmybe"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii4805@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "cyJr1ZyHgFEc3Uzd"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii1748@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "dEVyx6hNiQ0rI8h3"
+        },
+        {
+            "nome": "Yrvin put",
+            "email": "yrvin+aa6fe5a9-a951-416d-9928-cfe335ffde5b@gmail.com",
+            "password": "nuevo",
+            "administrador": "false",
+            "_id": "dJriTEvkVGS8czbL"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "gabriel748@teste.com",
+            "password": "Mudar123@",
+            "administrador": "true",
+            "_id": "dfLYKIXi40o7OVN4"
+        },
+        {
+            "nome": "UI QA 1757700057333",
+            "email": "ui_1757700057333@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "dqRlzgEjN9uXwHA5"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii6439@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "dxRCWil4JfnSJj2s"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii8764@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "e9yy7AWu1TqnhZiz"
+        },
+        {
+            "nome": "Sandro put",
+            "email": "sandro+8b31c5b9-4c94-4676-a2aa-4d2e6d5d12d8@gmail.com",
+            "password": "nuevo",
+            "administrador": "false",
+            "_id": "eBNwh7mSVMySwrFA"
+        },
+        {
+            "nome": "Fake",
+            "email": "fake@test.com",
+            "password": "123",
+            "administrador": "true",
+            "_id": "ek3fcbpYaGh2H7WH"
+        },
+        {
+            "nome": "João Santos",
+            "email": "usuario1757701984888@qa.com.br",
+            "password": "senha123",
+            "administrador": "false",
+            "_id": "f28ZbIiTssU4uQIN"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+7dc3a9ff-29e6-404e-ad4b-d91853567415@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "fRjwstjDLcocwT6R"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "mario.qa1757690993073@teste.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ff6yuarQ8DASW3B2"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+cc11971c-1354-4167-ace8-a5951dc479da@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "fn867pDWXvVZt8Ng"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+cc646a6d-e9c8-4403-b668-c5172642e03b@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "frJld66tlzENSuhu"
+        },
+        {
+            "nome": "Ícaro Cau",
+            "email": "icaro1757684478769@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gDiOi1zX2pLZqiiQ"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii2630@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "gFRixu7ot38ixnsM"
+        },
+        {
+            "nome": "Andressa Mota",
+            "email": "stsfdoou@robot.com",
+            "password": "Senha123",
+            "administrador": "true",
+            "_id": "gWFqGGHNJUzFsFzN"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "gabriel750@teste.com",
+            "password": "Mudar123@",
+            "administrador": "true",
+            "_id": "gm6TMjpdv9U4wWJW"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii9190@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "h5vvNfh12k5Baho9"
+        },
+        {
+            "nome": "Loca Shakira",
+            "email": "shakiojos@qa.com",
+            "password": "1234",
+            "administrador": "true",
+            "_id": "hMfxoytkL6sT2WvF"
+        },
+        {
+            "nome": "Mr. Harry Windler8655",
+            "email": "Elenor_Kemmer@hotmail.com",
+            "password": "123456",
+            "administrador": "false",
+            "_id": "hXoBDGJIFEzVh5YR"
+        },
+        {
+            "nome": "Teste Sem Carrinho",
+            "email": "semcarrinho_1757701280921@qa.com",
+            "password": "1234",
+            "administrador": "false",
+            "_id": "hciDOoTBWHoz6WHy"
+        },
+        {
+            "nome": "gabriel volponi",
+            "email": "gabrielteste@gmail.com",
+            "password": "1234",
+            "administrador": "false",
+            "_id": "hvKq1vi2XIoXm9zh"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii273@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ip4XL2tZIfxYratd"
+        },
+        {
+            "nome": "QA 1757700064538",
+            "email": "qa_1757700064538@mail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "jBhowbZqyhNiR9hk"
+        },
+        {
+            "nome": "Sandro Huamán Mendoza",
+            "email": "sandro+72ca6ec5-6476-4f5f-8291-7b3ce7a567d8@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "jkzeDDKzFoAG59kc"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii6018@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "kBr0IZXNtbPzPXeZ"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "usuario1757702449555@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "kaAc4KHsO8AiP45M"
+        },
+        {
+            "nome": "João Santos",
+            "email": "usuario1757702450035@qa.com.br",
+            "password": "senha123",
+            "administrador": "false",
+            "_id": "lTfqniwJugDdksCb"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii4524@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ldfOOzNi123aLevh"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "usuario1757701984594@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "llBOh9QUKLk2cLJp"
+        },
+        {
+            "nome": "Sandro put",
+            "email": "sandro+0ecb18d4-a620-43d9-b9ef-4aadf7e58749@gmail.com",
+            "password": "nuevo",
+            "administrador": "false",
+            "_id": "ms9O7iOIJv3TsxO9"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757684013802@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "n03FAAZTzC0DtBjF"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757684321709@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ng4qFF0InbG1ngmb"
+        },
+        {
+            "nome": "QA 1757700027273",
+            "email": "qa_1757700027273@mail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "oCckA8OZES6v1Kkl"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+3a575134-d765-48bd-bbf0-78c102d84b26@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "oO7ZUYblQnsg2ZCK"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+702b5492-5b4e-44cb-a257-c12a6e56318a@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "oQOgSG1SSQJVNGjo"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "icaro1757684454913@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "pTNHI7kA8nkw2B3O"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii4995@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "pry0O1JOvf6ShJAJ"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii9022@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "pzp2nglYLnXb8TyB"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii877@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "qLEbX6sGvn2zpinF"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+83be0d3d-70e4-4008-8e94-04e932eee67e@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "rvlwEkUvwwkYvDNx"
+        },
+        {
+            "nome": "ícaro cau",
+            "email": "lucas1757684071134@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "s2iGBra9iDEREws6"
+        },
+        {
+            "nome": "UI QA 1757701735710",
+            "email": "ui_1757701735710@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "s3T7OY9MswTfsOj8"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+e97f53df-721c-4431-a00c-5c3a017fc856@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "sdbBnzDrYWFAIg0s"
+        },
+        {
+            "nome": "Gus da Silva",
+            "email": "gusilva@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "siiXO6OJTOD1i7Fb"
+        },
+        {
+            "nome": "testee teste",
+            "email": "fulano@1qa.com",
+            "password": "1234",
+            "administrador": "false",
+            "_id": "sm3gBsQB6XMjTMFO"
+        },
+        {
+            "nome": "Ícaro ",
+            "email": "icaro1757684464680@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "swkUciVdoSycgBpO"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii6114@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "tHnsFB8hgbbfySeF"
+        },
+        {
+            "nome": "Yrvin Pachas Saravia",
+            "email": "yrvin+92412397-3970-4286-851e-9bdddec35dd0@gmail.com",
+            "password": "testerQA",
+            "administrador": "true",
+            "_id": "tRcxdAYA2B39HKk9"
+        },
+        {
+            "nome": "Andressa Mota",
+            "email": "zwlccbur@robot.com",
+            "password": "Senha123",
+            "administrador": "true",
+            "_id": "vCR28qn8jToxdNAT"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii7840@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "vRfHPoFS5K6z1GUA"
+        },
+        {
+            "nome": "Léo QA",
+            "email": "qa1757683741595@teste.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "w8oCT6vLbesnXF32"
+        },
+        {
+            "nome": "jose1 mendoza1",
+            "email": "jmendoza1@qa.com.br",
+            "password": "tester",
+            "administrador": "true",
+            "_id": "wHOCVOcYBBFWNPzw"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii7210@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "wLCn3xfPA3acW6nk"
+        },
+        {
+            "nome": "QA 1757700073766",
+            "email": "qa_1757700073766@mail.com",
+            "password": "teste",
+            "administrador": "false",
+            "_id": "wM03x2ztn4myTp4J"
+        },
+        {
+            "nome": "Fuzarii",
+            "email": "Fuzarii9396@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "x8JfPy2lpWSRwwNu"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano6784@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "xR17oMO3DIIKO0VU"
+        },
+        {
+            "nome": "Yrvin put",
+            "email": "yrvin+5bd32da0-dfca-4ad4-ab27-d34126417608@gmail.com",
+            "password": "nuevo",
+            "administrador": "false",
+            "_id": "xSPDeNodycgnyDOm"
+        },
+        {
+            "nome": "Lucas Silva",
+            "email": "lucas1757684311945@gmail.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "xUKKwCHzjx1vCUpj"
+        },
+        {
+            "nome": "Testes Tacon",
+            "email": "testes@testes.com",
+            "password": "testes01",
+            "administrador": "false",
+            "_id": "xUhOI6tsypP7l3dI"
+        },
+        {
+            "nome": "Teste",
+            "email": "testando@teste.com",
+            "password": "215487",
+            "administrador": "false",
+            "_id": "xVW7XhKKU31QNq8f"
+        },
+        {
+            "nome": "jose2 mendoza2",
+            "email": "jmendoza2@qa.com.br",
+            "password": "tester",
+            "administrador": "true",
+            "_id": "y1u3oIRylkBt9srf"
+        },
+        {
+            "nome": "Gabriel Volponi",
+            "email": "gabriel712@teste.com",
+            "password": "Mudar123@",
+            "administrador": "true",
+            "_id": "yjxsBVerq8UjVi6i"
+        },
+        {
+            "nome": "Fuzari quality assurance",
+            "email": "fuzari8389@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "ziQDzE0BHv2gPIkG"
+        },
+        {
+            "nome": "Usuario Gmail",
+            "email": "usuario@gmail.com",
+            "password": "Senha123",
+            "administrador": "false",
+            "_id": "zp0R9K4rcTbpkSAK"
         }
     ]
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateUserSuccess" classname="com.company.api.UserAPITest" time="1.119">
+  <testcase name="testUpdateUserSuccess" classname="com.company.api.UserAPITest" time="1.636">
     <system-out><![CDATA[Request method:	PUT
-Request URI:	https://serverest.dev/usuarios/v1ahDsCVlO5lYVn7
+Request URI:	https://serverest.dev/usuarios/8E85CQ0Ohhl7hiyt
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -410,8 +1775,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: e600253458e8705c2d4c75eda97827b9
-date: Sun, 31 Aug 2025 00:51:13 GMT
+x-cloud-trace-context: 1e1072f552c1beaca737ac40dd8ff7e1;o=1
+date: Fri, 12 Sep 2025 19:07:35 GMT
 server: Google Frontend
 Content-Length: 50
 
@@ -419,13 +1784,13 @@ Content-Length: 50
     "message": "Registro alterado com sucesso"
 }
 Request method:	GET
-Request URI:	https://serverest.dev/usuarios/v1ahDsCVlO5lYVn7
+Request URI:	https://serverest.dev/usuarios/8E85CQ0Ohhl7hiyt
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -440,8 +1805,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 520f4175fd3e39c2ad0935503730b441
-date: Sun, 31 Aug 2025 00:51:13 GMT
+x-cloud-trace-context: 8b068f0780b1541c11eb033c5041387e
+date: Fri, 12 Sep 2025 19:07:36 GMT
 server: Google Frontend
 Content-Length: 169
 
@@ -450,19 +1815,19 @@ Content-Length: 169
     "email": "updated.email@test.com",
     "password": "newpassword123",
     "administrador": "false",
-    "_id": "v1ahDsCVlO5lYVn7"
+    "_id": "8E85CQ0Ohhl7hiyt"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteUserSuccess" classname="com.company.api.UserAPITest" time="1.068">
+  <testcase name="testDeleteUserSuccess" classname="com.company.api.UserAPITest" time="1.077">
     <system-out><![CDATA[Request method:	DELETE
-Request URI:	https://serverest.dev/usuarios/v1ahDsCVlO5lYVn7
+Request URI:	https://serverest.dev/usuarios/8E85CQ0Ohhl7hiyt
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -477,8 +1842,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 938155808990f6f624c9315ab5a68def
-date: Sun, 31 Aug 2025 00:51:14 GMT
+x-cloud-trace-context: b60a84ddae1e15efbe190262dd59e3c0
+date: Fri, 12 Sep 2025 19:07:37 GMT
 server: Google Frontend
 Content-Length: 51
 
@@ -486,13 +1851,13 @@ Content-Length: 51
     "message": "Registro excluído com sucesso"
 }
 Request method:	GET
-Request URI:	https://serverest.dev/usuarios/v1ahDsCVlO5lYVn7
+Request URI:	https://serverest.dev/usuarios/8E85CQ0Ohhl7hiyt
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -507,8 +1872,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: cdeeba720f282fee807fbbd81caf2349
-date: Sun, 31 Aug 2025 00:51:14 GMT
+x-cloud-trace-context: 9b3abf486d3133ff202dc1cda04899c7
+date: Fri, 12 Sep 2025 19:07:37 GMT
 server: Google Frontend
 Content-Length: 45
 
@@ -517,7 +1882,7 @@ Content-Length: 45
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateUserMissingFields" classname="com.company.api.UserAPITest" time="0.549">
+  <testcase name="testCreateUserMissingFields" classname="com.company.api.UserAPITest" time="0.54">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://serverest.dev/usuarios
 Proxy:			<none>
@@ -525,7 +1890,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -544,8 +1909,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: 7c7ebd9ed9527631ce768575ebb65a9d
-date: Sun, 31 Aug 2025 00:51:15 GMT
+x-cloud-trace-context: 462d8dfd4e24bbd301a00461813fe484
+date: Fri, 12 Sep 2025 19:07:38 GMT
 server: Google Frontend
 Content-Length: 82
 
@@ -555,7 +1920,7 @@ Content-Length: 82
 }
 ]]></system-out>
   </testcase>
-  <testcase name="testGetUserNotFound" classname="com.company.api.UserAPITest" time="0.552">
+  <testcase name="testGetUserNotFound" classname="com.company.api.UserAPITest" time="0.547">
     <system-out><![CDATA[Request method:	GET
 Request URI:	https://serverest.dev/usuarios/nonexistent123
 Proxy:			<none>
@@ -563,7 +1928,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU2NjAxNDcwLCJleHAiOjE3NTY2MDIwNzB9.0m-938Jr67MsessDkrjm9_fLxb7s7Ud12PDvnvXoico
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNzU3NzA0MDUyLCJleHAiOjE3NTc3MDQ2NTJ9.Ko_IWxq8PSOYoY6RP-FMWd6vYmyElGPsYPQuh3h-ogs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -578,8 +1943,8 @@ x-download-options: noopen
 x-content-type-options: nosniff
 x-xss-protection: 1; mode=block
 content-type: application/json; charset=utf-8
-x-cloud-trace-context: fdbebd3d8ff7df2688692977ae3372b9
-date: Sun, 31 Aug 2025 00:51:16 GMT
+x-cloud-trace-context: aad3d06459e4acfa5fd88866a7f97458
+date: Fri, 12 Sep 2025 19:07:38 GMT
 server: Google Frontend
 Content-Length: 67
 

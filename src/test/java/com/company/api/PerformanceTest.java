@@ -23,6 +23,7 @@ public class PerformanceTest {
             assertEquals(200, response.getStatusCode(), "Request should succeed within rate limit");
             
             // Small delay to avoid hitting rate limit too quickly
+            // Estrategia para evitar bloqueios durante os testes
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
